@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<link rel="stylesheet" href="styles.css">
+<script src="https://kit.fontawesome.com/21d6115808.js" crossorigin="anonymous"></script></head>
+<body>
+    <div class="header">
+        <div class="container">
+        <nav>
+            <img src="images/logo.png" height="80px" width="120px" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <h1>Hi,I'm <span>Madhuvan</span></h1>
+            <p>From Hyderabad</p>
+        </div>
+        
+        
+    </div>
+    </div>
+    <!--about-->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/Picsart_23-10-24_12-19-11-858.png" alt="" width="473px" height="631px">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>
+                    Hi there! I'm Tummacharla Madhuvan, an enthusiastic and aspiring web developer with a passion for creating exceptional online experiences. I believe in the power of the web to connect, inspire, and transform lives, and I'm excited to be a part of this ever-evolving digital landscape.My journey into web development began with a curiosity to understand how websites work and a desire to build things from scratch. I've embarked on this exciting path to leverage technology in innovative ways and make the web a more user-friendly and engaging place.I'm constantly expanding my knowledge and learning new technologies to stay up-to-date with the latest trends in web development. My skills include HTML, CSS, JavaScript, and I'm eager to dive into more advanced technologies and frameworks.In addition to my technical skills, I'm a creative problem solver and a strong believer in user-centric design. I'm keen to collaborate with like-minded individuals and organizations to create beautiful, functional, and responsive websites.
+                </p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Web Development</span><br>Web Application Development(HTMl, CSS, JavaScript, JAVA & MySQL)</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2022</span><br>BTech from SVES Tadepalligudem</li>
+                        <li><span>2019</span><br>Diploma from SMVM Tanuku</li>
+                        <li><span>2016</span><br>10th from Roots School Tanuku</li
+                    </ul>
+                </div>
+        </div>
+    </div>
+</div>
+<!-- service -->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Design</h2>
+                <p>Are you looking to establish a strong online presence, engage your audience, and achieve your digital goals? Look no further. We offer a range of web development services that can transform your vision into a stunning reality.</p>
+                <a href="https://rockcontent.com/blog/web-design/">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-app-store"></i>
+                <h2>App Design</h2>
+                <p>Unlock the potential of your business with our top-tier app development services. We are dedicated to creating powerful and user-friendly mobile and web applications that cater to your unique needs. </p>
+                <a href="https://www.hakunamatatatech.com/our-services/mobile-app-development-company-india/">Learn more</a>
+            </div>
+        </div>
+
+    </div>
+</div>
+<!-- ---------------portfolio----------------- -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/fb.png">
+                <div class="layer">
+                    <h3>Facebook Login Page</h3>
+                    <p>Facebook is a website which allows users, who sign-up for free profiles, to connect with friends, work colleagues or people they don't know, online</p>
+                    <a href="Facebook Login Page/index.html"><i class="fa-brands fa-facebook"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/Microsoft.jpeg">
+                <div class="layer">
+                    <h3>Microsoft Web Page</h3>
+                    <p>Office for the web (formerly Office Web Apps) opens Word, Excel, OneNote, and PowerPoint documents in your web browser</p>
+                    <a href="Microsoft Homepage Clone/index.html"><i class="fa-brands fa-microsoft"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/KFC.jpeg">
+                <div class="layer">
+                    <h3>KFC Page</h3>
+                    <p>KFC is a global chicken restaurant brand with a rich, decades-long history of success and innovation</p>
+                    <a href="KFC Landing Page/index.html"><i class="fa-solid fa-egg"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="https://github.com/Madhuvan143" class="btn"><i class="fa-brands fa-github"></i>  GitHuB</a>
+    </div>
+</div>
+<!-- -------contact-------- -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i> madhuvan2001@gmail.com</p>
+                <p><i class="fa-solid fa-square-phone"></i> 6281510220</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/madhuvan.tummacharla"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/madhuvan143/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/tummacharla-madhuvan-383118235/"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="images/Resume.pdf" class="btn btn2">DOWNLOAD RESUME</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © Madhuvan.<i class="fa-solid fa-heart"></i></p>
+    </div>
+</div>
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tablink of tabcontents){
+            tablink.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link")
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+</script>
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxzRXEp14qe2mg1homoKpJib5VBZshxLSuK6qpG7jEIoJ3Q5ESUzqosUauen15-oqTdIw/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg= document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML=""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
